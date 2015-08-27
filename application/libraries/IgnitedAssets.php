@@ -34,7 +34,7 @@ class IgnitedAssets
 
     /*
     * Instead of adding a style in the view ...
-    * you can add it in the controller so it is easier to manage or what page only it needed.
+    * you can add it in the controller so it is easier to manage.
     */
     public function _add_styles($styles)
     {
@@ -49,7 +49,7 @@ class IgnitedAssets
 
     /*
     * Instead of adding a script in the view ...
-    * you can add it in the controller so it is easier to manage or what page only it needed.
+    * you can add it in the controller so it is easier to manage.
     * @return void
     */
     public function _add_scripts($scripts)
