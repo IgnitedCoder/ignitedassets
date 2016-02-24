@@ -1,8 +1,8 @@
 
 A simple config file based asset manager. Simply create a config file for your assets as follows:
 
-/application/config/site_assets.php
-/application/config/app_assets.php
+# /application/config/site_assets.php
+# /application/config/app_assets.php
 
 Add your assets to the styles and scripts arrays respectively.
 
