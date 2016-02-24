@@ -2,10 +2,13 @@
 A simple config file based asset manager. Simply create a config file for your assets as follows:
 
 /application/config/site_assets.php
+/application/config/app_assets.php
 
 Add your assets to the styles and scripts arrays respectively.
 
 ```php
+
+/* site_assets.php */
 
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -22,7 +25,7 @@ $config['scripts'] =  array('https://ajax.googleapis.com/ajax/libs/jquery/1.11.0
 
 ```
 You're ready to rock. In your constructor or MY_Controllers constructor initialize and load the library. Note that the 2nd param for load->library() is an array.
-This basically allows you to load multiple asset files.
+This basically allows you to load multiple asset config files.
 
 ```php
 
